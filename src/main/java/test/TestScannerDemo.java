@@ -1,5 +1,3 @@
-package test;
-
 import java.io.Console;
 import java.util.Scanner;
 
@@ -12,6 +10,6 @@ public class TestScannerDemo {
         Console con=System.console();
         String username=con.readLine("User name:");
         char[] password=con.readPassword("password:");
-        System.out.println("密码为："+password);
+		System.out.println("密码为："+password);
     }
 }
