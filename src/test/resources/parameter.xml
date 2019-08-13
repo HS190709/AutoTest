@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="test">
+    <test name="test">
+
+        <classes>
+            <parameter name="name" value="孙七"/>
+            <parameter name="age" value="10"/>
+            <class name="com.hosni.autotest.chapterfive.ParameterTest"/>
+        </classes>
+    </test>
+</suite>

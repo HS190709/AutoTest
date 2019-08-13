@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Created by https://www.gitignore.io/api/java,maven,gradle,windows,intellij
 # Edit at https://www.gitignore.io/?templates=java,maven,gradle,windows,intellij
 
@@ -83,6 +84,8 @@ fabric.properties
 .idea/sonarlint
 
 ### Java ###
+=======
+>>>>>>> temp_c
 # Compiled class file
 *.class
 
@@ -107,7 +110,11 @@ fabric.properties
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 
+<<<<<<< HEAD
 ### Maven ###
+=======
+    
+>>>>>>> temp_c
 target/
 pom.xml.tag
 pom.xml.releaseBackup
@@ -117,6 +124,7 @@ release.properties
 dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
+<<<<<<< HEAD
 .mvn/wrapper/maven-wrapper.jar
 
 ### Windows ###
@@ -165,3 +173,6 @@ gradle-app.setting
 **/build/
 
 # End of https://www.gitignore.io/api/java,maven,gradle,windows,intellij
+=======
+.mvn/wrapper/maven-wrapper.jar
+>>>>>>> temp_c

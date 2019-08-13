@@ -15,5 +15,6 @@ public class CalendarDemo {
         calendar.add(Calendar.MONTH,2);
         System.out.println(calendar.get(calendar.YEAR)+"-"+(calendar.get(calendar.MONTH)+1)+"-"+calendar.get(calendar.DATE));
         System.out.println(calendar.getTime());
+
     }
 }

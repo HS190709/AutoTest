@@ -19,7 +19,6 @@ public class Main
             test();
         }
     }
-
     public static void test()
     {
         // 用来测试的List

@@ -1,13 +1,12 @@
-/*
-import java.io.Console;
-import java.util.Scanner;
+package com.hosni;
 
-*/
+import java.io.Console;
+
+
 /**
  * @author hosni
  * @date 2019/06/14 21:14:06
- **//*
-
+ **/
 public class TestScannerDemo {
     public static void main(String[] args) {
         Console con=System.console();
@@ -15,4 +14,4 @@ public class TestScannerDemo {
         char[] password=con.readPassword("password:");
 		System.out.println("密码为："+password);
     }
-}*/
+}
