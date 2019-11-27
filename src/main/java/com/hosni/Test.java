@@ -18,8 +18,11 @@ public class Test {
         List<String> l=new ArrayList<>(Arrays.asList(s));
         l.add("d");
         System.out.println(l);*/
-        Vector v=new Vector();
-        int[] i={1,2,3};
-
+        //Vector v=new Vector();
+        //int[] i={1,2,3};
+        char x='x';
+        int i =0;
+        System.out.println(true?x:0);
+        System.out.println(false?i:x);
     }
 }
