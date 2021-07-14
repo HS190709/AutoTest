@@ -11,14 +11,14 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hosni/PersonSalaryCal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hosni/PersonSalaryCal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/inter/Search$ListAndTarget.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/inter/Search.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/abstracttest/AbstractParent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hosni/autotest/chapterfive/Config.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hosni/autotest/chapterfive/DependenceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hosni/autotest/chapterfive/ExceptionTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hosni/autotest/chapterfive/LogIn.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hosni/autotest/chapterfive/Pay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/inter/Search$ListAndTarget.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/inter/Search$ListAndTarget.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/inter/Search.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/inter/Search.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/abstracttest/AbstractParent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/abstracttest/AbstractParent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hosni/autotest/chapterfive/Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/hosni/autotest/chapterfive/Config.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hosni/autotest/chapterfive/DependenceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/hosni/autotest/chapterfive/DependenceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hosni/autotest/chapterfive/ExceptionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/hosni/autotest/chapterfive/ExceptionTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hosni/autotest/chapterfive/LogIn.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/hosni/autotest/chapterfive/LogIn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hosni/autotest/chapterfive/Pay.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/hosni/autotest/chapterfive/Pay.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +81,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.3537736" />
     <property name="project.structure.side.proportion" value="0.5066922" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -260,7 +260,7 @@
       <workItem from="1572352040124" duration="4919000" />
       <workItem from="1574775980267" duration="14152000" />
       <workItem from="1626252799204" duration="74000" />
-      <workItem from="1626253077908" duration="1697000" />
+      <workItem from="1626253077908" duration="2356000" />
     </task>
     <servers />
   </component>
