@@ -1,30 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="097c6335-300e-4f5a-9ec5-0dfb466605ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hosni/MapDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hosni/PersonSalaryCal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hosni/PropertiesDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hosni/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hosni/TimeComplexity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hosni/StackDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hosni/StackDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hosni/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hosni/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/inter/Search$ListAndTarget.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/inter/Search$ListAndTarget.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/inter/Search.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/inter/Search.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/PersonOperation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/abstracttest/AbstractParent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/abstracttest/AbstractParent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hosni/autotest/chapterfive/Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/hosni/autotest/chapterfive/Config.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hosni/autotest/chapterfive/DependenceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/hosni/autotest/chapterfive/DependenceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hosni/autotest/chapterfive/ExceptionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/hosni/autotest/chapterfive/ExceptionTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hosni/autotest/chapterfive/LogIn.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/hosni/autotest/chapterfive/LogIn.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hosni/autotest/chapterfive/Pay.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/hosni/autotest/chapterfive/Pay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hosni/PersonSalaryCal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hosni/PersonSalaryCal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/inter/Search$ListAndTarget.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/inter/Search.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/abstracttest/AbstractParent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hosni/autotest/chapterfive/Config.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hosni/autotest/chapterfive/DependenceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hosni/autotest/chapterfive/ExceptionTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hosni/autotest/chapterfive/LogIn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hosni/autotest/chapterfive/Pay.class" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,30 +52,36 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="D:\apache-maven-3.6.0\localRepository\Repository" />
-        <option name="mavenHome" value="D:/apache-maven-3.6.0" />
-        <option name="userSettingsFile" value="D:\apache-maven-3.6.0\conf\settings.xml" />
+        <option name="localRepository" value="D:\work\apache-maven-3.8.1\localRepository\Repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../work/apache-maven-3.8.1" />
+        <option name="userSettingsFile" value="D:\work\apache-maven-3.8.1\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
       <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
         <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectId" id="1QjEIp1iAiz1GqA91YvwHhlpXhL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557127021293" />
-    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AutoTest_H" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.3537736" />
+    <property name="project.structure.side.proportion" value="0.5066922" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -101,19 +102,7 @@
       <recent name="G:\test\src\main\resources" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.TimeComplexity">
+  <component name="RunManager" selected="Application.PersonSalaryCal">
     <configuration name="JavaNumber" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaNumber" />
       <module name="test" />
@@ -135,8 +124,23 @@
       </method>
     </configuration>
     <configuration name="PersonSalary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="16" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.hosni.PersonSalary" />
-      <module name="test" />
+      <module name="AutoTest_C" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hosni.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonSalaryCal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hosni.PersonSalaryCal" />
+      <module name="AutoTest_C" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.hosni.*" />
@@ -149,19 +153,6 @@
     </configuration>
     <configuration name="PropertiesDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hosni.PropertiesDemo" />
-      <module name="test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hosni.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hosni.Test" />
       <module name="test" />
       <extension name="coverage">
         <pattern>
@@ -186,24 +177,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.JavaNumber" />
-      <item itemvalue="Application.Test" />
       <item itemvalue="Application.PersonSalary" />
       <item itemvalue="Application.MapDemo" />
       <item itemvalue="Application.PropertiesDemo" />
       <item itemvalue="Application.TimeComplexity" />
+      <item itemvalue="Application.PersonSalaryCal" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PersonSalaryCal" />
+        <item itemvalue="Application.PersonSalary" />
         <item itemvalue="Application.TimeComplexity" />
         <item itemvalue="Application.PropertiesDemo" />
         <item itemvalue="Application.MapDemo" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.PersonSalary" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -256,6 +259,8 @@
       <workItem from="1572351880894" duration="68000" />
       <workItem from="1572352040124" duration="4919000" />
       <workItem from="1574775980267" duration="14152000" />
+      <workItem from="1626252799204" duration="74000" />
+      <workItem from="1626253077908" duration="1697000" />
     </task>
     <servers />
   </component>
@@ -301,16 +306,14 @@
     </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -329,6 +332,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
@@ -345,6 +349,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
