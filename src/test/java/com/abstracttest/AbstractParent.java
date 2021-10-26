@@ -1,4 +1,4 @@
-package abstracttest;
+package com.abstracttest;
 
 
 import org.testng.annotations.*;

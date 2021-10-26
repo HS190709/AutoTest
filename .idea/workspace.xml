@@ -4,16 +4,59 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="097c6335-300e-4f5a-9ec5-0dfb466605ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+    <list default="true" id="097c6335-300e-4f5a-9ec5-0dfb466605ba" name="Default Changelist" comment="Default Changelist">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/duliday/minato/AverageScore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/duliday/minato/BubbleSortDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/duliday/minato/CalcYang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/duliday/minato/CountSheep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/duliday/minato/CountSheep1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/duliday/minato/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/duliday/minato/Demo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/duliday/minato/MainDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/duliday/minato/SortDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/duliday/minato/TaxCalc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/duliday/minato/TaxCalcUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/duliday/minato/TaxTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/duliday/minato/TestDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/duliday/minato/TimeConsuming.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/duliday/minato/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/duliday/minato/UtilScanner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hosni/TestCalc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/duliday/minato/CountSheep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/duliday/minato/TaxCalc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/duliday/minato/TaxTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/duliday/minato/TestAverageScore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/duliday/minato/TestBubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/duliday/minato/TestDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/duliday/minato/TestSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/duliday/minato/TestTimeConsuming.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/duliday/minato/TestUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hosni/EnumerationDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hosni/MapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hosni/PersonSalary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hosni/PersonSalaryCal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hosni/PropertiesDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hosni/Salary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hosni/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hosni/StackDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hosni/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hosni/TestCalc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hosni/TestScannerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hosni/TimeComplexity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hosni/VectorDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hosni/PersonSalaryCal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hosni/PersonSalaryCal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hosni/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hosni/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/TexPro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/TexPro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/abstracttest/AbstractParent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/abstracttest/AbstractParent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/abstracttest/AbstractSon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/abstracttest/AbstractSon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/inter/Search$ListAndTarget.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/inter/Search$ListAndTarget.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/inter/Search.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/inter/Search.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/abstracttest/AbstractParent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/abstracttest/AbstractParent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/abstracttest/AbstractParent.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/hosni/autotest/chapterfive/Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/hosni/autotest/chapterfive/Config.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/hosni/autotest/chapterfive/DependenceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/hosni/autotest/chapterfive/DependenceTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/hosni/autotest/chapterfive/ExceptionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/hosni/autotest/chapterfive/ExceptionTest.class" afterDir="false" />
@@ -49,6 +92,22 @@
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/duliday/minato/BubbleSortDemo.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/duliday/minato/TimeConsuming.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/com/duliday/minato/TestTimeConsuming.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/duliday/minato/MainDemo.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/duliday/minato/TaxCalcUtil.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -64,35 +123,36 @@
     </option>
   </component>
   <component name="ProjectId" id="1QjEIp1iAiz1GqA91YvwHhlpXhL" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557127021293" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AutoTest_H" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.3537736" />
     <property name="project.structure.side.proportion" value="0.5066922" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="inter" />
       <recent name="abstracttest" />
     </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Test\AutoTest_C\src\test\java" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\test\src\main\java\test" />
@@ -101,8 +161,72 @@
       <recent name="G:\test\src\test" />
       <recent name="G:\test\src\main\resources" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.duliday.minato" />
+      <recent name="com" />
+      <recent name="" />
+    </key>
+    <key name="MoveInnerDialog.RECENTS_KEY">
+      <recent name="com.duliday.minato" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.duliday.minato" />
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.PersonSalaryCal">
+  <component name="RunManager" selected="Application.CountSheep1">
+    <configuration name="CalcYang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.duliday.minato.CalcYang" />
+      <module name="AutoTest_C" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.duliday.minato.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountSheep" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.duliday.minato.CountSheep" />
+      <module name="AutoTest_C" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.duliday.minato.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountSheep1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.duliday.minato.CountSheep1" />
+      <module name="AutoTest_C" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.duliday.minato.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountSheep" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.duliday.minato.CountSheep" />
+      <module name="AutoTest_C" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.duliday.minato.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JavaNumber" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaNumber" />
       <module name="test" />
@@ -110,27 +234,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hosni.MapDemo" />
-      <module name="test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hosni.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PersonSalary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="16" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.hosni.PersonSalary" />
+    <configuration name="TaxCalc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.duliday.minato.TaxCalc" />
       <module name="AutoTest_C" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hosni.*" />
+          <option name="PATTERN" value="com.duliday.minato.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,71 +247,56 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonSalaryCal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hosni.PersonSalaryCal" />
-      <module name="AutoTest_C" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hosni.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PropertiesDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hosni.PropertiesDemo" />
-      <module name="test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hosni.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TimeComplexity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hosni.TimeComplexity" />
-      <module name="test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hosni.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JarApplication">
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2" />
+    </configuration>
+    <configuration name="CalcYang.calc" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutoTest_C" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.duliday.minato.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.duliday.minato" />
+      <option name="MAIN_CLASS_NAME" value="com.duliday.minato.CalcYang" />
+      <option name="METHOD_NAME" value="calc" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.JavaNumber" />
-      <item itemvalue="Application.PersonSalary" />
-      <item itemvalue="Application.MapDemo" />
-      <item itemvalue="Application.PropertiesDemo" />
-      <item itemvalue="Application.TimeComplexity" />
-      <item itemvalue="Application.PersonSalaryCal" />
+      <item itemvalue="Application.TaxCalc" />
+      <item itemvalue="Application.CalcYang" />
+      <item itemvalue="Application.CountSheep" />
+      <item itemvalue="Application.CountSheep1" />
+      <item itemvalue="TestNG.CalcYang.calc" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PersonSalaryCal" />
-        <item itemvalue="Application.PersonSalary" />
-        <item itemvalue="Application.TimeComplexity" />
-        <item itemvalue="Application.PropertiesDemo" />
-        <item itemvalue="Application.MapDemo" />
+        <item itemvalue="Application.CountSheep1" />
+        <item itemvalue="Application.CountSheep" />
+        <item itemvalue="Application.CalcYang" />
+        <item itemvalue="TestNG.CalcYang.calc" />
+        <item itemvalue="Application.TaxCalc" />
       </list>
     </recent_temporary>
   </component>
@@ -260,7 +354,55 @@
       <workItem from="1572352040124" duration="4919000" />
       <workItem from="1574775980267" duration="14152000" />
       <workItem from="1626252799204" duration="74000" />
-      <workItem from="1626253077908" duration="2356000" />
+      <workItem from="1626253077908" duration="3466000" />
+      <workItem from="1626956989094" duration="8445000" />
+      <workItem from="1627957064168" duration="31164000" />
+      <workItem from="1628134738061" duration="29641000" />
+      <workItem from="1628596694984" duration="38047000" />
+      <workItem from="1629203508840" duration="48315000" />
+      <workItem from="1629268470254" duration="662000" />
+      <workItem from="1629367557238" duration="27302000" />
+      <workItem from="1631622596768" duration="458000" />
+      <workItem from="1631623079383" duration="84000" />
+      <workItem from="1631623180280" duration="213000" />
+      <workItem from="1631623453943" duration="552000" />
+      <workItem from="1631624030403" duration="13183000" />
+      <workItem from="1631774631528" duration="6051000" />
+      <workItem from="1632276519216" duration="54832000" />
+      <workItem from="1632731056533" duration="4583000" />
+      <workItem from="1632737411691" duration="1152000" />
+      <workItem from="1632743773712" duration="922000" />
+      <workItem from="1632744731197" duration="2536000" />
+      <workItem from="1632747305394" duration="180000" />
+      <workItem from="1632747505687" duration="211000" />
+      <workItem from="1632747735043" duration="1372000" />
+      <workItem from="1632797090246" duration="61000" />
+      <workItem from="1632797168721" duration="30000" />
+      <workItem from="1632797215712" duration="192000" />
+      <workItem from="1632797424174" duration="871000" />
+      <workItem from="1632799273507" duration="8477000" />
+      <workItem from="1633760337302" duration="1980000" />
+      <workItem from="1633932080710" duration="10721000" />
+      <workItem from="1633946958022" duration="278000" />
+      <workItem from="1633947256914" duration="9970000" />
+      <workItem from="1634119093729" duration="16215000" />
+      <workItem from="1634637502733" duration="694000" />
+      <workItem from="1634638268007" duration="131000" />
+      <workItem from="1634638432422" duration="5408000" />
+      <workItem from="1634710635384" duration="12230000" />
+      <workItem from="1634787637320" duration="7565000" />
+      <workItem from="1634804929626" duration="6540000" />
+      <workItem from="1634873944074" duration="144000" />
+      <workItem from="1634874109628" duration="248000" />
+      <workItem from="1634874377849" duration="37000" />
+      <workItem from="1634874443445" duration="75000" />
+      <workItem from="1634874538432" duration="28000" />
+      <workItem from="1634874584584" duration="729000" />
+      <workItem from="1635133195515" duration="74000" />
+      <workItem from="1635133292702" duration="25000" />
+      <workItem from="1635133339175" duration="108000" />
+      <workItem from="1635133467128" duration="3845000" />
+      <workItem from="1635143883895" duration="4626000" />
     </task>
     <servers />
   </component>
@@ -335,6 +477,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/hs/zm-automated-testing-platform" />
     </ignored-roots>
@@ -346,6 +489,22 @@
           <url>jar://C:/Program Files/Java/jdk-12.0.2/lib/src.zip!/java.base/java/util/Map.java</url>
           <line>158</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hosni/PersonSalary.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hosni/PersonSalary.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hosni/PersonSalaryCal.java</url>
+          <line>14</line>
+          <properties field="accumulatedIncome" class="com.hosni.PersonSalaryCal" />
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -363,6 +522,9 @@
       <FILTER>inter.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/test$Test2.ic" NAME="Test2 Coverage Results" MODIFIED="1561112421387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/AutoTest_C$TaxCalc.ic" NAME="TaxCalc Coverage Results" MODIFIED="1628762704558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.duliday.minato.*</FILTER>
+    </SUITE>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
