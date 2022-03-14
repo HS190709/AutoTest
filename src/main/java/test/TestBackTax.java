@@ -13,5 +13,5 @@ import java.math.BigDecimal;
 public class TestBackTax {
     TaxTestDemo taxTestDemo=new TaxTestDemo();
     CalcPersonnalTax calcPersonnalTax=new CalcPersonnalTax();
-    BigDecimal aggregateIncome=new BigDecimal()
+    BigDecimal aggregateIncome=new BigDecimal("0");
 }
