@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="097c6335-300e-4f5a-9ec5-0dfb466605ba" name="Default Changelist" comment="Default Changelist">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/duliday/minato/CalcPersonnalTax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/duliday/minato/CalcTax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/duliday/minato/TaxTestDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/TestBackTax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/duliday/minato/TestCalcTax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/duliday/minato/DuLiDayTax.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/duliday/minato/CalcPersonnalTax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/duliday/minato/CalcPersonnalTax.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/duliday/minato/TaxCalc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/duliday/minato/TaxTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/duliday/minato/TaxTestDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/duliday/minato/TaxTestDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/duliday/minato/TestDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/TestBackTax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/TestBackTax.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +95,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.3537736" />
     <property name="project.structure.side.proportion" value="0.5066922" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -123,7 +125,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TaxTestDemo">
+  <component name="RunManager" selected="Application.CalcPersonnalTax">
     <configuration name="CalcPersonnalTax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.duliday.minato.CalcPersonnalTax" />
       <module name="AutoTest_C" />
@@ -137,8 +139,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountSheep" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.duliday.minato.CountSheep" />
+    <configuration name="DuLiDayTax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.duliday.minato.DuLiDayTax" />
       <module name="AutoTest_C" />
       <extension name="coverage">
         <pattern>
@@ -157,8 +159,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaxTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.duliday.minato.TaxTest" />
+    <configuration name="TestTax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.duliday.minato.TestTax" />
       <module name="AutoTest_C" />
       <extension name="coverage">
         <pattern>
@@ -170,26 +172,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaxTestDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.duliday.minato.TaxTestDemo" />
-      <module name="AutoTest_C" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.duliday.minato.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -198,7 +189,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCalcTax" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CalcPersonnalTax (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutoTest_C" />
       <extension name="coverage">
         <pattern>
@@ -207,7 +198,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.duliday.minato" />
-      <option name="MAIN_CLASS_NAME" value="com.duliday.minato.TestCalcTax" />
+      <option name="MAIN_CLASS_NAME" value="com.duliday.minato.CalcPersonnalTax" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -215,7 +206,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCalcTax.test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CalcPersonnalTaxTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutoTest_C" />
       <extension name="coverage">
         <pattern>
@@ -224,9 +215,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.duliday.minato" />
-      <option name="MAIN_CLASS_NAME" value="com.duliday.minato.TestCalcTax" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="com.duliday.minato.CalcPersonnalTaxTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -235,20 +225,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.JavaNumber" />
-      <item itemvalue="Application.CountSheep" />
-      <item itemvalue="Application.TaxTest" />
       <item itemvalue="Application.CalcPersonnalTax" />
-      <item itemvalue="Application.TaxTestDemo" />
-      <item itemvalue="TestNG.TestCalcTax" />
-      <item itemvalue="TestNG.TestCalcTax.test" />
+      <item itemvalue="Application.TestTax" />
+      <item itemvalue="TestNG.CalcPersonnalTax (1)" />
+      <item itemvalue="TestNG.CalcPersonnalTaxTest" />
+      <item itemvalue="Application.DuLiDayTax" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TaxTestDemo" />
         <item itemvalue="Application.CalcPersonnalTax" />
-        <item itemvalue="Application.TaxTest" />
-        <item itemvalue="TestNG.TestCalcTax.test" />
-        <item itemvalue="TestNG.TestCalcTax" />
+        <item itemvalue="Application.DuLiDayTax" />
+        <item itemvalue="Application.TestTax" />
+        <item itemvalue="TestNG.CalcPersonnalTaxTest" />
+        <item itemvalue="TestNG.CalcPersonnalTax (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -366,7 +355,14 @@
       <workItem from="1642409354883" duration="5656000" />
       <workItem from="1643017820416" duration="5833000" />
       <workItem from="1643277583468" duration="219000" />
-      <workItem from="1643277828425" duration="5680000" />
+      <workItem from="1643277828425" duration="6068000" />
+      <workItem from="1644472801399" duration="83000" />
+      <workItem from="1644472905212" duration="14004000" />
+      <workItem from="1646205871855" duration="3498000" />
+      <workItem from="1646897070769" duration="1680000" />
+      <workItem from="1646899016531" duration="29000" />
+      <workItem from="1646899062751" duration="3428000" />
+      <workItem from="1646904451914" duration="18858000" />
     </task>
     <servers />
   </component>
