@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="097c6335-300e-4f5a-9ec5-0dfb466605ba" name="Default Changelist" comment="Default Changelist">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/duliday/minato/DuLiDayTax.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/duliday/minato/CalcPersonnalTax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/duliday/minato/CalcPersonnalTax.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/duliday/minato/TaxCalc.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/duliday/minato/TaxTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/duliday/minato/TaxTestDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/duliday/minato/TaxTestDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/duliday/minato/TestDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/TestBackTax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/TestBackTax.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -362,7 +355,7 @@
       <workItem from="1646897070769" duration="1680000" />
       <workItem from="1646899016531" duration="29000" />
       <workItem from="1646899062751" duration="3428000" />
-      <workItem from="1646904451914" duration="18858000" />
+      <workItem from="1646904451914" duration="20551000" />
     </task>
     <servers />
   </component>
