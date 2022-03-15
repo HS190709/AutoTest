@@ -1,6 +1,7 @@
 package com.duliday.minato;
 
 import java.math.BigDecimal;
+import java.math.RoundingMode;
 
 /**
  * @author Minato
@@ -13,7 +14,7 @@ public class CalcPersonnalTax {
     BigDecimal cumulativeTax = new BigDecimal("0"); //累计个税
     BigDecimal accumulatedIncome = new BigDecimal("95630.31");//累计收入
     BigDecimal totalAccumulatedIncome = new BigDecimal("100810.31");//累计收入(含公积金)
-    BigDecimal aggregateIncome=new BigDecimal("52900.34");//综合所得收入额
+    BigDecimal aggregateIncome = new BigDecimal("52900.34");//综合所得收入额
     BigDecimal preSalary = new BigDecimal("21000");//税前工资
     BigDecimal afterSalary;//税后工资
     BigDecimal totalAfterSalary;//税后工资（含公积金和医保）
@@ -25,24 +26,27 @@ public class CalcPersonnalTax {
     BigDecimal[] mealAllowance = {
             new BigDecimal("720"),
             new BigDecimal("760"),
-            new BigDecimal("700"),
-            new BigDecimal("520"),//+160
-            new BigDecimal("640"),
-            new BigDecimal("740")};//餐补
+            new BigDecimal("540"),
+            new BigDecimal("520"),
+            new BigDecimal("640")};//餐补
+    BigDecimal[] backPay = {
+            new BigDecimal("0"),
+            new BigDecimal("0"),
+            new BigDecimal("0"),
+            new BigDecimal("160"),
+            new BigDecimal("0")};//补发工资
     BigDecimal[] absenteeismSalary = {
             new BigDecimal("0"),
             new BigDecimal("0"),
             new BigDecimal("0"),
             new BigDecimal("366.90"),
-            new BigDecimal("1931.03"),
-            new BigDecimal("0")};//缺勤薪资
+            new BigDecimal("1931.03")};//缺勤薪资
     BigDecimal[] performanceBonus = {
             new BigDecimal("0"),
             new BigDecimal("0"),
             new BigDecimal("6300"),
             new BigDecimal("0"),
-            new BigDecimal("0"),
-            new BigDecimal("6069.32")};//绩效奖金
+            new BigDecimal("0")};//绩效奖金
     BigDecimal[] cumulativeIncome = {
             new BigDecimal("0"),
             new BigDecimal("36000"),
@@ -74,8 +78,8 @@ public class CalcPersonnalTax {
 
     public static void main(String[] args) {
         CalcPersonnalTax calcPersonnalTax = new CalcPersonnalTax();
-        for (int i = 5; i < 6; i++) {
-            calcPersonnalTax.count(i+7, calcPersonnalTax.mealAllowance[i], calcPersonnalTax.absenteeismSalary[i], calcPersonnalTax.performanceBonus[i]);
+        for (int i = 0; i < 5; i++) {
+            calcPersonnalTax.count(i + 8, calcPersonnalTax.mealAllowance[i], calcPersonnalTax.absenteeismSalary[i], calcPersonnalTax.performanceBonus[i],calcPersonnalTax.backPay[i]);
         }
     }
 
@@ -106,17 +110,17 @@ public class CalcPersonnalTax {
         return cumulativeTax;
     }
 
-    public void count(Integer month, BigDecimal mealAllowance, BigDecimal absenteeismSalary, BigDecimal performanceBonus) {
+    public void count(Integer month, BigDecimal mealAllowance, BigDecimal absenteeismSalary, BigDecimal performanceBonus,BigDecimal backPay) {
         setDate(preSalary);
-        aggregateIncome = preSalary.subtract(socialSecurity).subtract(healthInsurance).subtract(housingFund).subtract(specialDeduction).subtract(thresholdTax).subtract(absenteeismSalary).add(performanceBonus).add(aggregateIncome);
-        cumulativeTax = calcCumulativeTax(aggregateIncome).subtract(mealAllowance);
-        tax = cumulativeTax.subtract(paidTax);
+        aggregateIncome = preSalary.subtract(socialSecurity).subtract(healthInsurance).subtract(housingFund).subtract(specialDeduction).subtract(thresholdTax).subtract(absenteeismSalary).add(mealAllowance).add(aggregateIncome);
+        cumulativeTax = calcCumulativeTax(aggregateIncome);
+        tax = cumulativeTax.subtract(paidTax).setScale(2, RoundingMode.DOWN);
         if (new BigDecimal("0").compareTo(tax) > 0) {
             tax = new BigDecimal("0");
         } else {
             paidTax = cumulativeTax;
         }
-        afterSalary = preSalary.subtract(socialSecurity).subtract(healthInsurance).subtract(housingFund).subtract(tax).add(mealAllowance).subtract(absenteeismSalary).add(performanceBonus);
+        afterSalary = preSalary.subtract(socialSecurity).subtract(healthInsurance).subtract(housingFund).subtract(tax).add(mealAllowance).subtract(absenteeismSalary).add(performanceBonus).add(backPay);
         //totalAfterSalary = afterSalary.add(housingFund.multiply(new BigDecimal("2"))).add(healthInsurance.multiply(new BigDecimal("2")));//包含公积金和医保
         totalAfterSalary = afterSalary.add(housingFund.multiply(new BigDecimal("2")));//包含公积金
         accumulatedIncome = accumulatedIncome.add(afterSalary);

@@ -49,6 +49,13 @@ public class DuLiDayTax {
             new BigDecimal("0"),
             new BigDecimal("0"),
             new BigDecimal("0")*/};//缺勤薪资
+    BigDecimal[] backPay = {
+            new BigDecimal("0"),
+            new BigDecimal("0"),
+            new BigDecimal("0"),
+            new BigDecimal("0"),
+            new BigDecimal("0"),
+            new BigDecimal("0")};//补发工资
     BigDecimal[] performanceBonus = {
             new BigDecimal("6069.32"),
             new BigDecimal("0"),

@@ -29,29 +29,25 @@ public class TaxTestDemo {
             new BigDecimal("760"),
             new BigDecimal("540"),
             new BigDecimal("520"),
-            new BigDecimal("640"),
-            new BigDecimal("740")};//餐补
+            new BigDecimal("640")};//餐补
     BigDecimal[] backPay = {
             new BigDecimal("0"),
             new BigDecimal("0"),
             new BigDecimal("0"),
             new BigDecimal("160"),
-            new BigDecimal("0"),
             new BigDecimal("0")};//补发工资
     BigDecimal[] absenteeismSalary = {
             new BigDecimal("0"),
             new BigDecimal("0"),
             new BigDecimal("0"),
             new BigDecimal("366.90"),
-            new BigDecimal("1931.03"),
-            new BigDecimal("0")};//缺勤薪资
+            new BigDecimal("1931.03")};//缺勤薪资
     BigDecimal[] performanceBonus = {
             new BigDecimal("0"),
             new BigDecimal("0"),
             new BigDecimal("6300"),
             new BigDecimal("0"),
-            new BigDecimal("0"),
-            new BigDecimal("6069.32")};//绩效奖金
+            new BigDecimal("0")};//绩效奖金
     BigDecimal[] cumulativeIncome = {
             new BigDecimal("0"),
             new BigDecimal("36000"),
@@ -84,7 +80,7 @@ public class TaxTestDemo {
     public static void main(String[] args) {
         TaxTestDemo taxTestDemo = new TaxTestDemo();
         for (int i = 0; i < 5; i++) {
-            taxTestDemo.count(i + 7, taxTestDemo.mealAllowance[i], taxTestDemo.backPay[i],taxTestDemo.absenteeismSalary[i], taxTestDemo.performanceBonus[i]);
+            taxTestDemo.count(i + 8, taxTestDemo.mealAllowance[i], taxTestDemo.backPay[i],taxTestDemo.absenteeismSalary[i], taxTestDemo.performanceBonus[i]);
         }
     }
 
@@ -117,7 +113,7 @@ public class TaxTestDemo {
 
     public void count(Integer month, BigDecimal mealAllowance,BigDecimal backPay, BigDecimal absenteeismSalary, BigDecimal performanceBonus) {
         setDate(preSalary);
-        aggregateIncome = preSalary.subtract(socialSecurity).subtract(healthInsurance).subtract(housingFund).subtract(specialDeduction).subtract(thresholdTax).subtract(absenteeismSalary).add(aggregateIncome).add(mealAllowance);
+        aggregateIncome = preSalary.subtract(socialSecurity).subtract(healthInsurance).subtract(housingFund).subtract(specialDeduction).subtract(thresholdTax).subtract(absenteeismSalary).add(aggregateIncome).add(mealAllowance)/*.add(backPay)*/;
         cumulativeTax = calcCumulativeTax(aggregateIncome);
         tax = cumulativeTax.subtract(paidTax);
         if (new BigDecimal("0").compareTo(tax) > 0) {
