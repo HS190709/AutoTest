@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="097c6335-300e-4f5a-9ec5-0dfb466605ba" name="Default Changelist" comment="Default Changelist">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/duliday/minato/CalcPersonnalTax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/duliday/minato/CalcPersonnalTax.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/duliday/minato/DuLiDayTax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/duliday/minato/DuLiDayTax.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/duliday/minato/TaxTestDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/duliday/minato/TaxTestDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/duliday/minato/MainDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/duliday/minato/MainDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +90,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.3537736" />
     <property name="project.structure.side.proportion" value="0.5066922" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -220,8 +219,8 @@
       <item itemvalue="Application.CalcPersonnalTax" />
       <item itemvalue="Application.TestTax" />
       <item itemvalue="Application.DuLiDayTax" />
-      <item itemvalue="TestNG.CalcPersonnalTaxTest" />
       <item itemvalue="Application.TaxTestDemo" />
+      <item itemvalue="TestNG.CalcPersonnalTaxTest" />
     </list>
     <recent_temporary>
       <list>
@@ -355,8 +354,17 @@
       <workItem from="1646899016531" duration="29000" />
       <workItem from="1646899062751" duration="3428000" />
       <workItem from="1646904451914" duration="18858000" />
+      <workItem from="1647332799588" duration="1059000" />
+      <workItem from="1647334357524" duration="606000" />
+      <workItem from="1647334991350" duration="2559000" />
+      <workItem from="1647337584575" duration="288000" />
     </task>
     <servers />
+  </component>
+  <component name="TerminalProjectNonSharedOptionsProvider">
+    <envs>
+      <env key="CMDER_ROOT" value="C:\work\cmder" />
+    </envs>
   </component>
   <component name="TestHistory">
     <history-entry file="G__test_src_test_resources_parameter_xml - 2019.07.29 at 22h 17m 32s.xml">

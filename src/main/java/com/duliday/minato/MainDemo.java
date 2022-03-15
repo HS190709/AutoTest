@@ -10,12 +10,12 @@ import java.util.Scanner;
 public class MainDemo {
     public static void main(String[] args) {
         for (String arg : args
-        ) {
+        ){
             System.out.println(arg);
         }
-        for (String arg : args
+            for (String arg : args
         ) {
-            if ("黄帅".equals(arg)) {
+            if ("hs".equals(arg)) {
                 System.out.println("要当爸爸了！");
                 break;
             } else {
