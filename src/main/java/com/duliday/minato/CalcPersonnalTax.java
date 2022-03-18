@@ -76,11 +76,16 @@ public class CalcPersonnalTax {
     };//速算扣除数
 
 
-    public static void main(String[] args) {
-        CalcPersonnalTax calcPersonnalTax = new CalcPersonnalTax();
-        for (int i = 0; i < 5; i++) {
-            calcPersonnalTax.count(i + 8, calcPersonnalTax.mealAllowance[i], calcPersonnalTax.absenteeismSalary[i], calcPersonnalTax.performanceBonus[i],calcPersonnalTax.backPay[i]);
+    public BigDecimal count(int n) {
+        if (n < 0 || n > 5) {
+            System.out.println("月份数有误！");
+        } else {
+            CalcPersonnalTax calcPersonnalTax = new CalcPersonnalTax();
+            for (int i = 0; i < n; i++) {
+                cumulativeTax = calcPersonnalTax.calcSalarySheet(i + 8, calcPersonnalTax.mealAllowance[i], calcPersonnalTax.backPay[i], calcPersonnalTax.absenteeismSalary[i], calcPersonnalTax.performanceBonus[i]);
+            }
         }
+        return cumulativeTax;
     }
 
     public void setDate(BigDecimal preSalary) {
@@ -110,7 +115,7 @@ public class CalcPersonnalTax {
         return cumulativeTax;
     }
 
-    public void count(Integer month, BigDecimal mealAllowance, BigDecimal absenteeismSalary, BigDecimal performanceBonus,BigDecimal backPay) {
+    public BigDecimal calcSalarySheet(Integer month, BigDecimal mealAllowance, BigDecimal absenteeismSalary, BigDecimal performanceBonus, BigDecimal backPay) {
         setDate(preSalary);
         aggregateIncome = preSalary.subtract(socialSecurity).subtract(healthInsurance).subtract(housingFund).subtract(specialDeduction).subtract(thresholdTax).subtract(absenteeismSalary).add(mealAllowance).add(aggregateIncome);
         cumulativeTax = calcCumulativeTax(aggregateIncome);
@@ -127,6 +132,6 @@ public class CalcPersonnalTax {
         totalAccumulatedIncome = totalAccumulatedIncome.add(totalAfterSalary);
         //System.out.println((new BigDecimal("0").compareTo(month) == 0 ? "2021年" : "2022年") + (new BigDecimal("0").compareTo(month) == 0 ? 12 : month) + "月应缴纳个税为：" + tax + "，累计缴纳：" + cumulativeTax + "，税后薪资为：" + afterSalary + ",计税工资：" + aggregateIncome + ",累计收入：" + accumulatedIncome);
         System.out.println("2021年" + month + "月应缴纳个税：" + tax + "，累计缴纳：" + cumulativeTax + ",综合所得收入额：" + aggregateIncome + "，税后薪资：" + afterSalary + ",税后薪资(含公积金)：" + totalAfterSalary + ",累计收入：" + accumulatedIncome + ",累计收入（含公积金）：" + totalAccumulatedIncome);
-
+        return cumulativeTax.subtract(new BigDecimal("0"));
     }
 }

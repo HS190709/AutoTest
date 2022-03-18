@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="097c6335-300e-4f5a-9ec5-0dfb466605ba" name="Default Changelist" comment="Default Changelist">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/duliday/minato/FinalSettlement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/duliday/minato/MainDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/duliday/minato/MainDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/duliday/minato/CalcPersonnalTax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/duliday/minato/CalcPersonnalTax.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/duliday/minato/TaxTestDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/duliday/minato/TaxTestDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/duliday/minato/TaxCalc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/duliday/minato/TaxTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/duliday/minato/TestDemo.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +124,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TaxTestDemo">
+  <component name="RunManager" selected="TestNG.FinalSettlement">
     <configuration name="CalcPersonnalTax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.duliday.minato.CalcPersonnalTax" />
       <module name="AutoTest_C" />
@@ -167,28 +171,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestTax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.duliday.minato.TestTax" />
-      <module name="AutoTest_C" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.duliday.minato.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -197,7 +186,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2" />
     </configuration>
-    <configuration name="CalcPersonnalTaxTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FinalSettlement" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutoTest_C" />
       <extension name="coverage">
         <pattern>
@@ -206,8 +195,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.duliday.minato" />
-      <option name="MAIN_CLASS_NAME" value="com.duliday.minato.CalcPersonnalTaxTest" />
+      <option name="MAIN_CLASS_NAME" value="com.duliday.minato.FinalSettlement" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FinalSettlement.count" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutoTest_C" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.duliday.minato.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.duliday.minato" />
+      <option name="MAIN_CLASS_NAME" value="com.duliday.minato.FinalSettlement" />
+      <option name="METHOD_NAME" value="count" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -217,18 +224,18 @@
     <list>
       <item itemvalue="Application.JavaNumber" />
       <item itemvalue="Application.CalcPersonnalTax" />
-      <item itemvalue="Application.TestTax" />
       <item itemvalue="Application.DuLiDayTax" />
       <item itemvalue="Application.TaxTestDemo" />
-      <item itemvalue="TestNG.CalcPersonnalTaxTest" />
+      <item itemvalue="TestNG.FinalSettlement.count" />
+      <item itemvalue="TestNG.FinalSettlement" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.FinalSettlement" />
+        <item itemvalue="TestNG.FinalSettlement.count" />
         <item itemvalue="Application.TaxTestDemo" />
         <item itemvalue="Application.CalcPersonnalTax" />
         <item itemvalue="Application.DuLiDayTax" />
-        <item itemvalue="Application.TestTax" />
-        <item itemvalue="TestNG.CalcPersonnalTaxTest" />
       </list>
     </recent_temporary>
   </component>
@@ -358,6 +365,7 @@
       <workItem from="1647334357524" duration="606000" />
       <workItem from="1647334991350" duration="2559000" />
       <workItem from="1647337584575" duration="288000" />
+      <workItem from="1647337895733" duration="14000000" />
     </task>
     <servers />
   </component>
@@ -415,7 +423,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/temp_ct" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>

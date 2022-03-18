@@ -77,11 +77,16 @@ public class TaxTestDemo {
     };//速算扣除数
 
 
-    public static void main(String[] args) {
-        TaxTestDemo taxTestDemo = new TaxTestDemo();
-        for (int i = 0; i < 5; i++) {
-            taxTestDemo.count(i + 8, taxTestDemo.mealAllowance[i], taxTestDemo.backPay[i],taxTestDemo.absenteeismSalary[i], taxTestDemo.performanceBonus[i]);
+    public BigDecimal count(int n) {
+        if (n < 0 || n > 5) {
+            System.out.println("月份数有误！");
+        } else {
+            TaxTestDemo taxTestDemo = new TaxTestDemo();
+            for (int i = 0; i < n; i++) {
+                cumulativeTax = taxTestDemo.calcSalarySheet(i + 8, taxTestDemo.mealAllowance[i], taxTestDemo.backPay[i], taxTestDemo.absenteeismSalary[i], taxTestDemo.performanceBonus[i]);
+            }
         }
+        return cumulativeTax;
     }
 
     public void setDate(BigDecimal preSalary) {
@@ -111,22 +116,21 @@ public class TaxTestDemo {
         return cumulativeTax;
     }
 
-    public void count(Integer month, BigDecimal mealAllowance,BigDecimal backPay, BigDecimal absenteeismSalary, BigDecimal performanceBonus) {
+    public BigDecimal calcSalarySheet(Integer month, BigDecimal mealAllowance, BigDecimal backPay, BigDecimal absenteeismSalary, BigDecimal performanceBonus) {
         setDate(preSalary);
         aggregateIncome = preSalary.subtract(socialSecurity).subtract(healthInsurance).subtract(housingFund).subtract(specialDeduction).subtract(thresholdTax).subtract(absenteeismSalary).add(aggregateIncome).add(mealAllowance)/*.add(backPay)*/;
         cumulativeTax = calcCumulativeTax(aggregateIncome);
-        tax = cumulativeTax.subtract(paidTax);
+        tax = cumulativeTax.subtract(paidTax).setScale(2, RoundingMode.DOWN);
         if (new BigDecimal("0").compareTo(tax) > 0) {
             tax = new BigDecimal("0");
         } else {
             paidTax = cumulativeTax;
         }
-        tax=tax.setScale(2, RoundingMode.HALF_UP);
         afterSalary = preSalary.subtract(socialSecurity).subtract(healthInsurance).subtract(housingFund).subtract(tax).add(mealAllowance).subtract(absenteeismSalary).add(performanceBonus).add(backPay);
         totalAfterSalary = afterSalary.add(housingFund.multiply(new BigDecimal("2")));//包含公积金
         accumulatedIncome = accumulatedIncome.add(afterSalary);
         totalAccumulatedIncome = totalAccumulatedIncome.add(totalAfterSalary);
         System.out.println("2021年" + month + "月应缴纳个税：" + tax + "，累计缴纳：" + cumulativeTax + ",综合所得收入额：" + aggregateIncome + "，税后薪资：" + afterSalary + ",税后薪资(含公积金)：" + totalAfterSalary + ",累计收入：" + accumulatedIncome + ",累计收入（含公积金）：" + totalAccumulatedIncome);
-
+        return cumulativeTax;
     }
 }
